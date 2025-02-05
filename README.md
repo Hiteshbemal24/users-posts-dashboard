@@ -32,7 +32,7 @@ Make sure you have the following installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/user-dashboard.git
+   git clone https://github.com/Hiteshbemal24/users-posts-dashboard/tree/main
    cd user-dashboard
    ```
 
