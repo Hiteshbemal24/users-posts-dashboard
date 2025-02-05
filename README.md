@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User Dashboard with Posts
+
+This is a Next.js application that displays a dashboard of users. Users can be searched and sorted, and clicking on a user will show detailed information about that user along with their posts.
+
+## Features
+
+- **User  List**: Displays a list of users fetched from the JSONPlaceholder API.
+- **Search Functionality**: Users can search by name or email.
+- **Sorting**: Users can be sorted by name or company.
+- **Dynamic User Detail Page**: Clicking on a user card navigates to a detailed view showing the user's information and their posts.
+- **Pagination**: Posts are paginated, showing 5 posts per page.
+
+## Technologies Used
+
+- Next.js
+- React
+- React Query
+- Tailwind CSS
+- JSONPlaceholder API
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Make sure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version 12 or later)
+- npm (Node Package Manager)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**:
 
-## Learn More
+   ```bash
+   git clone https://github.com/yourusername/user-dashboard.git
+   cd user-dashboard
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3. **Running the Application**:
+    ```bash
+    npm run dev
+    ```
+    - Open your browser and navigate to `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
+- Dashboard: You will see a list of users. You can search for users by name or email and sort them by name or company.
+- User Detail: Click on a user card to view detailed information about the user and their posts.
+- Pagination: Posts are displayed with pagination, allowing you to navigate through multiple pages of posts.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## API Used
+- Users: `https://jsonplaceholder.typicode.com/users`
+- Posts: `https://jsonplaceholder.typicode.com/posts`
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  ### THANK YOU
